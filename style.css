@@ -97,8 +97,8 @@
 
 .new-badge {
     position: absolute;
-    top: -85px;  /* তোমার কোড অনুযায়ী */
-    right: -60px; /* তোমার কোড অনুযায়ী */
+    top: -85px; 
+    right: -60px; 
     background-color: #00FF88;
     color: black;
     padding: 5px 15px;
