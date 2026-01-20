@@ -358,7 +358,7 @@
 
 .episode-info p {
     font-size: 14px;
-    color: #b0a3c4;
+    color: #bdacd6;
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -385,7 +385,7 @@
 }
 
 .host-card {
-    background: #24143a;
+    background: #24143A;
     border-radius: 30px;
     padding: 50px;
     max-width: 1000px;
@@ -448,7 +448,6 @@
     padding: 60px 20px;
     text-align: center;
     color: white;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .footer-content {
