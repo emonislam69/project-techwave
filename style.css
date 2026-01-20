@@ -97,17 +97,31 @@
 
 .new-badge {
     position: absolute;
-    top: -85px;
-    right: -60px;
+    top: -85px;  /* তোমার কোড অনুযায়ী */
+    right: -60px; /* তোমার কোড অনুযায়ী */
     background-color: #00FF88;
-    color: black;   
+    color: black;
     padding: 5px 15px;
     border-radius: 20px;
     font-size: 16px;
     font-weight: bold;
     box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
     z-index: 5;
+    animation: upDown 2s ease-in-out infinite;
 }
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 .banner-container .banner-content {
     margin-top: 40px;
